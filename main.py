@@ -12,6 +12,11 @@ def dice():
         print(f'Die {i}: {r}')
         sum+=r
     print(f'Total value: {sum}')
+    if sum <= 7:
+        print("You lost")
+    else:
+        print("You won")
+
 
 if __name__ == '__main__':
     dice()
