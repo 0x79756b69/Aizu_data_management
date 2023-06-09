@@ -13,9 +13,9 @@ def dice():
         sum+=r
     print(f'Total value: {sum}')
     if sum <= 7:
-        print("You lost")
+        print(f"{name} lost!")
     else:
-        print("You won")
+        print(f"{name} won!")
 
 
 if __name__ == '__main__':
