@@ -1,6 +1,9 @@
 import random
 
 def dice():
+    print('What is your name?')
+    name = input()
+    print(f'Hello, {name}!')
     print('Rolling dice...')
     l = [1, 2, 3, 4, 5, 6]
     sum = 0
